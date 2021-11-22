@@ -42,6 +42,7 @@ function render_elements() {
             var distance = steps[i].distance;
             var instruction = steps[i].maneuver.instruction;
 
+            var images;
             console.log(instruction);
 
             if(instruction.includes("Turn left")){
